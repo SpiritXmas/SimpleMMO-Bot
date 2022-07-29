@@ -14,3 +14,21 @@ The second method is more simplistic, it plays a sound through whatever the outp
 The last method is similar to the second method, however instead of an audio notification it is a visual notification. It will flash a red screen over your current screen and you can configure both the duration of each flash and how many times it flashes. 
 
 Note for the last two methods after you select the correct captcha it will continue to work auto farm like normal.
+
+## What is remote control?
+
+I implemented remote control for fun and to make SLEEP look even more legit, essentially with remote control it allows you to enable or disable the auto farm away from your pc. In the next sub heading Ill explain how I setup communication between client-server and why you should remake it.
+
+## How to setup client-server communication for remote control and discord captcha handling?
+
+The approach I took to create the above is extremely inefficient, I used a web server that had a php file that allowed a request to go through to set a variable to either true/false and another url that received the state of that variable. Now this isn't the best way to achieve communication because there are far more effective ways such as using your pc's file system instead. However if you want to replicate my method Ill leave the code to the php files and the url's in the code.
+
+## How does auto quest setting work?
+
+The settings for the auto quest folder look something like the following
+
+[auto_quest]=true
+[quest_name]=Read_a_cursed_book
+
+Essentially put the name of the quest in the quest name section, however instead of spaces use underscores. Also be sure to only choose a quest that you can actually complete.
+
