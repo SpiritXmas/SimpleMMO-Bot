@@ -32,3 +32,10 @@ The settings for the auto quest folder look something like the following
 
 Essentially put the name of the quest in the quest name section, however instead of spaces use underscores. Also be sure to only choose a quest that you can actually complete.
 
+## Where to download the chrome driver?
+
+https://chromedriver.chromium.org/downloads
+
+## Final notes
+
+Please do not expect this to work out of the box, I've left out the code for the discord bot and you still need to change the source code to your configuration. This is meant for other developers that would like to create their own bots for this game.
