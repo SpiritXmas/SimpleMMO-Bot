@@ -1,6 +1,6 @@
 # SimpleMMO-Bot
 
-!This does not represent my current skills and capabilities with python!
+A quick warning before continuing, I never planned on releasing this and was exploring different practises during my creation of this project, hence the ugly code.
 
 This was a small project I made in my spare time, called SLEEP. Automatically battled, did quests, waved to users, and stepped for you.
 Please note though, I no longer maintain this project so it may be outdated. 
